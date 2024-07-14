@@ -38,7 +38,7 @@ title = 'Potaxium'
         weight = 1
     [[menus.primary]]
         name  = "Pricing"
-        url = "/pricing/"
+        url = "/docs/pricing/"
         identifier = "pricing"
         weight = 2
     [[menus.primary]]

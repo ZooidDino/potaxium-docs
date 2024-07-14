@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 6
 draft: false
 toc: false
 icon: "help"
@@ -9,7 +9,7 @@ description: "Need help? Write us!"
 
 Do you need to contact us for anything? Please, email us.
 
-We can help you in case of difficulties in implementing our API or establish possible collaborations together.
+We can help you in case of difficulties when implementing our APIs or to establish possible collaborations together.
 
 ### Company Info
 - Name: Zooid Dino
