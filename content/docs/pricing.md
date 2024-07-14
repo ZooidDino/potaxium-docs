@@ -11,7 +11,12 @@ description: "Check our pricing model"
 We collaborate with RapidAPI to easily provide our API service to end users, and subscription management and monthly
 payment are handled directly by them.
 
-The next table contains all the links to choose the right subscription plan.
+### Subscribe
+If you would like to subscribe to a customized plan, please email us directly at [support@potaxium.com](mailto:support@potaxium.com),
+and we will try to get back to you as soon as possible.
+
+However, if you just want a regular subscription, click on the corresponding link in the next table and you will be redirected
+to the RapidAPI website to make the subscription.
 
 ### Plans
 {{< table "table-striped table-responsive" >}}
