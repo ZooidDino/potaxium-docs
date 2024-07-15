@@ -31,6 +31,5 @@ For all the other cases, the response body will be like this:
 | 404                   | "BASE_ASSET_NOT_FOUND" | The base asset specified in the request doesn't exist |
 | 404                   | "HISTORY_NOT_FOUND"    | The value of the requested historical rate is not available |
 | 405                   | "METHOD_NOT_ALLOWED"   | An existing endpoint was requested, but the wrong HTTP method was used in the request (e.g. `POST` instead of `GET`). |
-| 500                   | "INTERNAL_SERVER_ERROR" | An unexpected error happened while processing the request, please contact us |
-
+| 500                   | "INTERNAL_SERVER_ERROR" | An unexpected error happened while processing the request, please [contact us](/docs/support) |
 {{< /table >}}
