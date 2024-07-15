@@ -11,7 +11,8 @@ Potaxium is the state-of-the-art finance API for obtaining real-time financial d
 and cryptocurrencies.
 
 Unlike our competitors, we directly aggregate financial data from hundreds of providers (such as exchanges, central banks,
-forex brokers) and conveniently make it available to those who choose to use the service.
+forex brokers, international banks) and make it redundantly available to those who choose to use the service, reducing
+possible API downtime.
 
 You won't have to worry about anything other than calling our API, we use only reliable sources, and we update
 our systems constantly to prevent any incorrect data, with the help of our real time filters.
