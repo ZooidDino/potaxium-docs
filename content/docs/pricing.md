@@ -20,7 +20,7 @@ to the RapidAPI website to make the subscription.
 
 ### Plans
 {{< table "table-striped table-responsive" >}}
-|                       |   Free               |  Basic   |  PRO     | Business | Custom |
+|                       |   Free               |  Minimal   |  PRO     | Business | Custom |
 |:----------------------|:--------------------:|:--------:|:--------:|:--------:|:------:|
 | Price/month           | `$0.00`              | `$7.50`  | `$25.99` | `$59.99` |   |
 |                       | [Subscribe](https://rapidapi.com) | [Buy](https://rapidapi.com) | [Buy](https://rapidapi.com) | [Buy](https://rapidapi.com) | [Contact us](/docs/support)
@@ -51,3 +51,15 @@ to the RapidAPI website to make the subscription.
 
 `*****` In the custom plan it's possible to ask for a websocket that returns realtime rates updates for a specific
        assets pair
+
+### Different names
+RapidAPI uses different names for the plans, so we decided to add here the mappings
+between our API plans and their API marketplace plan names:
+{{< table "table-striped table-responsive" >}}
+|       API Plan        |   RapidAPI Name      |
+|:---------------------:|:--------------------:|
+| FREE                  | BASIC                |
+| MINIMAL               | PRO                  |
+| PRO                   | ULTRA                |
+| BUSINESS              | MEGA                 |
+{{< /table >}}
