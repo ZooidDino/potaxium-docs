@@ -15,7 +15,7 @@ payment are handled directly by them.
 If you would like to subscribe to a customized plan, please email us directly at [support@potaxium.com](mailto:support@potaxium.com),
 and we will try to get back to you as soon as possible.
 
-However, if you just want a regular subscription, click on the corresponding link in the next table and you will be redirected
+However, if you just want a regular subscription, click on the corresponding link in the next table, and you will be redirected
 to the RapidAPI website to make the subscription.
 
 ### Plans
@@ -23,7 +23,7 @@ to the RapidAPI website to make the subscription.
 |                       |   Free               |  Minimal   |  PRO     | Business | Custom |
 |:----------------------|:--------------------:|:--------:|:--------:|:--------:|:------:|
 | Price/month           | `$0.00`              | `$7.50`  | `$25.99` | `$59.99` |   |
-|                       | [Subscribe](https://rapidapi.com) | [Buy](https://rapidapi.com) | [Buy](https://rapidapi.com) | [Buy](https://rapidapi.com) | [Contact us](/docs/support)
+|                       | [Subscribe](https://rapidapi.com/ErikPelli/api/potaxium-forex-data) | [Buy](https://rapidapi.com/ErikPelli/api/potaxium-forex-data) | [Buy](https://rapidapi.com/ErikPelli/api/potaxium-forex-data) | [Buy](https://rapidapi.com/ErikPelli/api/potaxium-forex-data) | [Contact us](/docs/support)
 | Monthly HTTP Requests | 500 | 25,000 | 400,000 | 1,200,000 | Infinite |
 | HTTPS                 | Yes | Yes    | Yes     | Yes       | Yes      |
 | Rate Limit            | 50 requests/minute   | 100 requests/minute  | No | No | No |
@@ -63,3 +63,7 @@ between our API plans and their API marketplace plan names:
 | PRO                   | ULTRA                |
 | BUSINESS              | MEGA                 |
 {{< /table >}}
+
+<a href="https://rapidapi.com/ErikPelli/api/potaxium-forex-data" target="_blank">
+	<img src="https://storage.googleapis.com/rapidapi-documentation/connect-on-rapidapi-dark.png" width="215" alt="Connect on RapidAPI">
+</a>

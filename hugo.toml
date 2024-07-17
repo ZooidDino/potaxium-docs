@@ -2,6 +2,11 @@ baseURL = 'https://potaxium.com/'
 languageCode = 'en'
 title = 'Potaxium'
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [module]
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"
