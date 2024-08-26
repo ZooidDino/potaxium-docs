@@ -20,7 +20,7 @@ GET /live
 {{< table "table-striped table-responsive" >}}
 |      Parameter                    |   Type                 |  Description |
 |:---------------------------------:|:----------------------:|:-------------|
-| "type"                            | String enum            | (Optional) Get only the specified type of assets, can be `currency`, `crypto`, `material` | |
+| "type"                            | String enum            | (Optional) Get only the specified type of assets, can be `currency`, `crypto`, `material` |
 | "assets[]"                        | String array           | (Optional) Get only the specified assets listing codes |
 {{< /table >}}
 
@@ -102,7 +102,7 @@ GET /live/base/EUR?type=currency&assets[]=USD&assets[]=EUR
 {{< table "table-striped table-responsive" >}}
 |      Parameter                    |   Type                 |  Description |
 |:---------------------------------:|:----------------------:|:-------------|
-| "type"                            | String enum            | (Optional) Get only the specified type of assets, can be `currency`, `crypto`, `material` | |
+| "type"                            | String enum            | (Optional) Get only the specified type of assets, can be `currency`, `crypto`, `material` |
 | "assets[]"                        | String array           | (Optional) Get only the specified assets listing codes |
 {{< /table >}}
 
