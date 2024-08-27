@@ -1,18 +1,20 @@
 ---
-weight: 2
+weight: 1
 draft: false
 toc: false
 title: "Forex (FX) Rates"
-description: "API to retrieve the current forex conversion rates"
+description: "API to retrieve the forex conversion rates related to a date in the past"
 ---
 
-Obtain a list of all the currently available conversion rates using `USD` (Dollar) as the default base currency.
+> Available only in plans starting from [MINIMAL](/docs/pricing/)
+
+Obtain a list of all the daily conversion rates of a specified date using `USD` (Dollar) as the default base currency.
 
 In the following example, `1 USD` = `0.895772375876783 EUR`.
 
 HTTP Request:
 ```
-GET /live
+GET /history
 ```
 
 <br>
@@ -20,15 +22,18 @@ GET /live
 {{< table "table-striped table-responsive" >}}
 |      Parameter                    |   Type                 |  Description |
 |:---------------------------------:|:----------------------:|:-------------|
+| "date"                            | Date                   | Reference date of the daily conversion rate, using the `YYYY-MM-DD` format |
 | "type"                            | String enum            | (Optional) Get only the specified type of assets, can be `currency`, `crypto`, `material` |
 | "assets[]"                        | String array           | (Optional) Get only the specified assets listing codes |
 {{< /table >}}
+
+> ⚠️ Minimum supported date is 2000-01-01
 
 <br>
 
 HTTP Request Example:
 ```
-GET /live?type=currency&assets[]=USD&assets[]=EUR
+GET /history?date=2023-01-09&type=currency&assets[]=USD&assets[]=EUR
 ```
 
 <br>
@@ -42,7 +47,7 @@ Example of successful response:
 ```json
 {
   "success": true,
-  "lastUpdate": "2024-08-26T14:10:27.01329941Z",
+  "lastUpdate": "2023-01-09T12:00:00Z",
   "data": {
     "count": 220,
     "list": [
@@ -69,7 +74,7 @@ Example of successful response:
 | "data", "count"                   | Integer                | Length of the result list |
 | "data", "list"                    | Array                  | Result list |
 | "data", "list", \<element\>, "code" | String               | Listing code of the target asset |
-| "data", "list", \<element\>, "rate" | Decimal string       | Current conversion [midmarket rate](/docs/quickstart/midmarket/) |
+| "data", "list", \<element\>, "rate" | Decimal string       | [Midmarket rate](/docs/quickstart/midmarket/) of the target date |
 {{< /table >}}
 
 <br>
@@ -87,14 +92,14 @@ In the following example, `1 EUR` = `1.11669349969065 USD`.
 
 HTTP Request:
 ```
-GET /live/base/{code}
+GET /history/base/{code}
 ```
 
 <br>
 
 HTTP Request Example:
 ```
-GET /live/base/EUR?type=currency&assets[]=USD&assets[]=EUR
+GET /history/base/EUR?date=2023-01-10&type=currency&assets[]=USD&assets[]=EUR
 ```
 
 <br>
@@ -102,6 +107,7 @@ GET /live/base/EUR?type=currency&assets[]=USD&assets[]=EUR
 {{< table "table-striped table-responsive" >}}
 |      Parameter                    |   Type                 |  Description |
 |:---------------------------------:|:----------------------:|:-------------|
+| "date"                            | Date                   | Reference date of the daily conversion rate, using the `YYYY-MM-DD` format |
 | "type"                            | String enum            | (Optional) Get only the specified type of assets, can be `currency`, `crypto`, `material` |
 | "assets[]"                        | String array           | (Optional) Get only the specified assets listing codes |
 {{< /table >}}
@@ -118,7 +124,7 @@ Example of successful response:
 ```json
 {
   "success": true,
-  "lastUpdate": "2024-08-26T14:26:12.913765779Z",
+  "lastUpdate": "2023-01-10T12:00:00Z",
   "data": {
     "count": 220,
     "list": [

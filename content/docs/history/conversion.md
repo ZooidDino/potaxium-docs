@@ -14,7 +14,7 @@ The availability of conversion rates depends on the date and doesn't correspond 
 
 HTTP Request:
 ```
-GET /live/history
+GET /history/conversion
 ```
 
 <br>
@@ -22,7 +22,7 @@ GET /live/history
 {{< table "table-striped table-responsive" >}}
 |      Parameter                    |   Type                 |  Description |
 |:---------------------------------:|:----------------------:|:-------------|
-| "date"                            | Date                   | Reference date of the daily conversion rate, using the YYYY-MM-DD format |
+| "date"                            | Date                   | Reference date of the daily conversion rate, using the `YYYY-MM-DD` format |
 | "quantity"                        | Number                 | Quantity of "from" asset to convert |
 | "from"                            | String                 | Listing code of the asset to convert` |
 | "to"                              | String                 | Listing code of the target asset of the conversion |
@@ -35,7 +35,7 @@ GET /live/history
 
 HTTP Request Example:
 ```
-GET /live/history?date=2023-01-30&quantity=10.5&from=USD&to=EUR
+GET /history/conversion?date=2023-01-30&quantity=10.5&from=USD&to=EUR
 ```
 
 <br>
