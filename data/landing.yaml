@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "Currency Conversion API"
-  subtitle: Finance APIs for obtaining real-time financial data on forex, materials and cryptocurrencies
+  subtitle: Finance APIs for obtaining realtime financial data on forex, materials and cryptocurrencies
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'

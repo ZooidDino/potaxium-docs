@@ -47,7 +47,7 @@ to the RapidAPI website to make the subscription.
       for some dates in the past
 
 `****` In the custom plan it's possible to agree on a Service Level Agreement on individual forex pairs used by the
-      customer, for real-time rates, to make sure the API will always have them available and with the correct values
+      customer, for realtime rates, to make sure the API will always have them available and with the correct values
 
 `*****` In the custom plan it's possible to ask for a websocket that returns realtime rates updates for a specific
        assets pair
