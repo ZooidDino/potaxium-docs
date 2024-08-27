@@ -1,0 +1,134 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: POTAXIUM
+    color: dark # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "Currency Conversion API"
+  subtitle: Finance APIs for obtaining real-time financial data on forex, materials and cryptocurrencies
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  cta2Button:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/introduction"
+
+  info: "**Free** plan available"
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why choose Potaxium APIs?
+
+  items:
+    - title: 200+ Currency Pairs
+      icon: euro
+      description: The currency exchange values you may need are fully available to you
+
+    - title: Technical Support
+      icon: support_agent
+      description: If you need help with our APIs integration, our technical team can quickly answer all your questions
+
+    - title: Secure by default
+      icon: lock
+      description: All of our APIs use HTTPS, Cloudflare and authentication to access data
+
+    - title: Realtime Data
+      icon: update
+      description: Our most advanced plans can provide realtime data for the most common currency exchanges, unlike competitors that update data every 1 minute
+
+    - title: Commercial Use
+      icon: shopping_cart
+      description: Our [paid plans](/docs/pricing/) allow you to use our data for commercial purposes
+
+    - title: Enterprise Features
+      icon: work
+      description: We have a customized [enterprise plan](/docs/support) to meet all additional customer needs and discuss any exclusive features
+
+# Image compare
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
+
+  title: Customise The Lotus Docs Appearance
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+
+  items:
+    - title: Dark Mode
+      config: {
+        startingPoint: 50,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Dark',
+          after: 'Light',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    - title: Custom Fonts
+      config: {
+        controlColor: "#3C4257",
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Inter',
+          after: 'Life Saver',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
+
+    - title: Accent Color
+      config: {
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: true,
+        showLabels: true,
+        labelOptions: {
+          before: 'Blue',
+          after: 'Cardinal',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_blue_theme_colour.webp"
+      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
