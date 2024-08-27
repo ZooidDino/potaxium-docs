@@ -21,7 +21,7 @@ GET /live/conversion
 |      Parameter                    |   Type                 |  Description |
 |:---------------------------------:|:----------------------:|:-------------|
 | "quantity"                        | Number                 | Quantity of "from" asset to convert |
-| "from"                            | String                 | Listing code of the asset to convert` |
+| "from"                            | String                 | Listing code of the asset to convert |
 | "to"                              | String                 | Listing code of the target asset of the conversion |
 | "truncate"                        | Boolean                | (Optional, default: true) Specify if you want to truncate the converted result to the target asset significant decimal places |
 {{< /table >}}
