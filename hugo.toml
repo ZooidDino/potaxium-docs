@@ -51,8 +51,3 @@ title = 'Potaxium'
         url = "/docs/support"
         identifier = "contact"
         weight = 3
-    [[menus.primary]]
-        name  = "Status"
-        url = "/"
-        identifier = "status"
-        weight = 4
