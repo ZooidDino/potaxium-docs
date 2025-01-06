@@ -1,6 +1,7 @@
 baseURL = 'https://potaxium.com/'
 languageCode = 'en'
 title = 'Potaxium'
+googleAnalytics = 'G-LE24VW5RV7'
 
 [markup]
     [markup.goldmark]
