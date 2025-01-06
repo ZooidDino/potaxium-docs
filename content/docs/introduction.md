@@ -7,7 +7,7 @@ title: "Introduction"
 description: "Introduction to the Potaxium APIs"
 ---
 
-Potaxium is the state-of-the-art finance API for obtaining realtime financial data on forex, materials (e.g., gold, silver)
+Potaxium is the state-of-the-art finance API to get realtime financial data on forex, materials (e.g., gold, silver)
 and cryptocurrencies.
 
 Unlike our competitors, we directly aggregate financial data from hundreds of providers (such as exchanges, central banks,
